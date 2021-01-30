@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish="https://github.com/KarimIdrisov/f1statistic/build"
+  base = "https://github.com/KarimIdrisov/f1statistic"
+  
+  [[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
